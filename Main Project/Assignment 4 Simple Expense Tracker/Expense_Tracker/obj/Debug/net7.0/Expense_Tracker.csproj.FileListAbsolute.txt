@@ -1,0 +1,14 @@
+C:\Users\pct216\Desktop\Simple Expense Tracker\Expense_Tracker\bin\Debug\net7.0\Expense_Tracker.exe
+C:\Users\pct216\Desktop\Simple Expense Tracker\Expense_Tracker\bin\Debug\net7.0\Expense_Tracker.deps.json
+C:\Users\pct216\Desktop\Simple Expense Tracker\Expense_Tracker\bin\Debug\net7.0\Expense_Tracker.runtimeconfig.json
+C:\Users\pct216\Desktop\Simple Expense Tracker\Expense_Tracker\bin\Debug\net7.0\Expense_Tracker.dll
+C:\Users\pct216\Desktop\Simple Expense Tracker\Expense_Tracker\bin\Debug\net7.0\Expense_Tracker.pdb
+C:\Users\pct216\Desktop\Simple Expense Tracker\Expense_Tracker\obj\Debug\net7.0\Expense_Tracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pct216\Desktop\Simple Expense Tracker\Expense_Tracker\obj\Debug\net7.0\Expense_Tracker.AssemblyInfoInputs.cache
+C:\Users\pct216\Desktop\Simple Expense Tracker\Expense_Tracker\obj\Debug\net7.0\Expense_Tracker.AssemblyInfo.cs
+C:\Users\pct216\Desktop\Simple Expense Tracker\Expense_Tracker\obj\Debug\net7.0\Expense_Tracker.csproj.CoreCompileInputs.cache
+C:\Users\pct216\Desktop\Simple Expense Tracker\Expense_Tracker\obj\Debug\net7.0\Expense_Tracker.dll
+C:\Users\pct216\Desktop\Simple Expense Tracker\Expense_Tracker\obj\Debug\net7.0\refint\Expense_Tracker.dll
+C:\Users\pct216\Desktop\Simple Expense Tracker\Expense_Tracker\obj\Debug\net7.0\Expense_Tracker.pdb
+C:\Users\pct216\Desktop\Simple Expense Tracker\Expense_Tracker\obj\Debug\net7.0\Expense_Tracker.genruntimeconfig.cache
+C:\Users\pct216\Desktop\Simple Expense Tracker\Expense_Tracker\obj\Debug\net7.0\ref\Expense_Tracker.dll

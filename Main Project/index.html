@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="login container-fluid">
+        <div class="row">
+            <div class="login_img p-0 col-lg-6 col-md-12">
+                <img class="img-fluid h-100 pizza_img" src="images/dominos_background.jpg" alt="">
+            </div>
+
+            <div class="login_body col-lg-6 col-md-12 d-flex flex-column justify-content-center">
+                <div class="login_heading d-flex w-100 align-items-center justify-content-center">
+                    <img class="img-fluid pizza_shop_logo" src="images/logos/pizzashop_logo.png"
+                        alt="Pizza shop logo not found">
+                    <div class="title fs-4">PIZZASHOP</div>
+                </div>
+
+                <div class="login_main w-100">
+                    <div class="greeting mt-4 mb-3 fs-3">
+                        Welcome,
+                    </div>
+
+                    <form id="loginForm">
+                        <div class="form-floating input_item mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                            <label class="w-100" for="floatingInput">
+                                <div class="d-flex justify-content-between">
+                                    <div>Email address</div>
+                                    <div><img src="images/icons/customer.svg" alt=""></div>
+                                </div>
+                            </label>
+                            <small class="text-danger d-none" id="emailError">Email is Required.</small>
+                        </div>
+                        <div class="form-floating input_item mb-3">
+                            <input type="password" class="form-control" id="password" placeholder="name@example.com">
+                            <label for="floatingInput">Password*</label>
+                            <small class="text-danger d-none" id="passwordError">Password is Required.</small>
+                        </div>
+                        <div class="remember_forgot mb-3 d-flex justify-content-between">
+                            <div>
+                                <input type="checkbox" name="remember" id="rememberMe">
+                                <span>Remember Me</span>
+                            </div>
+
+                            <a href="forgot.html">Forgot Password?</a>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-primary w-100">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
+
+
+

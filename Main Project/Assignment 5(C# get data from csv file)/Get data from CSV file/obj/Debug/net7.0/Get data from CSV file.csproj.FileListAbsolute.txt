@@ -1,0 +1,44 @@
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\appsettings.json
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\Get data from CSV file.staticwebassets.runtime.json
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\Get data from CSV file.exe
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\Get data from CSV file.deps.json
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\Get data from CSV file.runtimeconfig.json
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\Get data from CSV file.dll
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\Get data from CSV file.pdb
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\Get data from CSV file.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\Get data from CSV file.AssemblyInfoInputs.cache
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\Get data from CSV file.AssemblyInfo.cs
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\Get data from CSV file.csproj.CoreCompileInputs.cache
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\Get data from CSV file.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\Get data from CSV file.RazorAssemblyInfo.cache
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\Get data from CSV file.RazorAssemblyInfo.cs
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\staticwebassets\msbuild.Get data from CSV file.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\staticwebassets\msbuild.build.Get data from CSV file.props
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Get data from CSV file.props
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Get data from CSV file.props
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\scopedcss\bundle\Get data from CSV file.styles.css
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\scopedcss\projectbundle\Get data from CSV file.bundle.scp.css
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\Get data from CSV file.dll
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\refint\Get data from CSV file.dll
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\Get data from CSV file.pdb
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\Get data from CSV file.genruntimeconfig.cache
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\ref\Get data from CSV file.dll
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\Humanizer.dll
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\Npgsql.dll
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\Get data from CSV file.csproj.AssemblyReference.cache
+C:\Users\pct216\Downloads\Assignment 5(C# get data from csv file)\Get data from CSV file\obj\Debug\net7.0\Get data from CSV file.csproj.CopyComplete

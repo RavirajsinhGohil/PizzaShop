@@ -1,0 +1,33 @@
+@model test.ViewModel.ForgotViewModel;
+
+@{
+    ViewData["Title"] = "Forgot Password";
+}
+
+<div class="login_main">
+    <div class="mb-3 mt-4 fs-3">
+        Forgot Password
+    </div>
+
+    <div class="forgot_desc fs-6 mb-3">Enter your email and we'll send you a link to reset your password</div>
+
+    <form id="loginForm" method="post">
+        <div class="form-floating input_item mb-3">
+            <input type="email" class="form-control" id="email" asp-for="Email" value=" @ViewData["Email"]">
+            <label class="w-100" for="floatingInput">
+                <div class="d-flex justify-content-between w-100">
+                    <div>Email address</div>
+                    <div><img src="~/images/icons/customer.svg" alt=""></div>
+                </div>
+            </label>
+            <small class="text-danger d-none" id="emailError">Email is Required.</small>
+        </div>
+
+        <div>
+            <button type="submit" class="btn btn-primary w-100 fs-5" asp-controller="Home" asp-action="Forgot" >Send</button>
+        </div>
+
+        <a class="back_login mt-2 d-flex justify-content-center" asp-controller="Home" asp-action="Index">Back to
+            login</a>
+    </form>
+</div>

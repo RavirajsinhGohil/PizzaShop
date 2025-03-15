@@ -1,0 +1,61 @@
+﻿@model test.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login Page";
+}
+
+<div class="login_main w-100">
+    <div class="greeting mt-4 mb-3 fs-3">
+        Welcome,
+    </div>
+
+    <form id="loginForm" method="post">
+        <div class="form-floating input_item mb-3">
+            <input type="email" class="form-control" id="email" style=" position: relative;;" placeholder="name@example.com" asp-for="Email">
+            <label class="w-100" for="floatingInput">
+                <div class="d-flex justify-content-between">
+                    <div>Email address</div>
+                </div>
+            </label>
+            <div style="position: absolute; right: 12px; top:11px;"><img src="~/images/icons/customer.svg" alt=""></div>
+            @* <span asp-validation-for="Email" class="text-danger"></span> *@
+            @* <small class="text-danger d-none" id="emailError">Email is Required.</small> *@
+        </div>
+        @if (ViewContext.ModelState.ContainsKey("Email"))
+        {
+            <div class="text-danger">@ViewContext.ModelState["Email"].Errors[0].ErrorMessage</div>
+        }
+        <div class="form-floating input_item mb-3">
+            <input type="password" class="form-control" id="password" placeholder="name@example.com" asp-for="password"
+                asp-validation-for="password">
+            <label for="floatingInput">Password*</label>
+            @* <span asp-validation-for="password" class="text-danger"></span> *@
+            @* <small class="text-danger d-none" id="passwordError">Password is Required.</small> *@
+        </div>
+        @if (ViewContext.ModelState.ContainsKey("Password"))
+        {
+            <div class="text-danger">@ViewContext.ModelState["Password"].Errors[0].ErrorMessage</div>
+        }
+        <div class="remember_forgot mb-3 d-flex justify-content-between">
+            <div>
+                <input type="checkbox" asp-for="RememberMe">
+                <span>Remember Me</span>
+            </div>
+            <a asp-controller="Home" asp-action="Forgot" asp-for="ForgotPassword=" id="forgotPasswordLink">Forgot
+                Password?</a>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary w-100">Login</button>
+            <div class="text-danger">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    document.getElementById('forgotPasswordLink').addEventListener('click', function () {
+        var email = document.getElementById("email").value;
+        this.href = '@Url.Action("Forgot", "Home")' + '?email=' + encodeURIComponent(email);
+    });
+</script>

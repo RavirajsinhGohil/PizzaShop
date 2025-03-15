@@ -1,0 +1,36 @@
+@model IEnumerable<Student>
+
+@{
+    ViewData["Title"] = "Student List";
+}
+<div class="d-flex mb-4 " style="justify-content: space-between;">
+    <h2>@ViewData["Title"]</h2>
+    <Button class="btn btn-primary"><a asp-action="Index" asp-controller="Home" style="color: white; text-decoration: none; font-size: 18px;">Back To Upload</a></Button>
+</div>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Roll Number</th>
+            <th>Name</th>
+            <th>Mobile Number</th>
+            <th>City</th>
+            <th>Address</th>
+            <th>Email</th>
+            <th>Pincode</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.Rollnumber</td>
+                <td>@student.Name</td>
+                <td>@student.Mobilenumber</td>
+                <td>@student.City</td>
+                <td>@student.Address</td>
+                <td>@student.Email</td>
+                <td>@student.Pincode</td>
+            </tr>
+        }
+    </tbody>
+</table>

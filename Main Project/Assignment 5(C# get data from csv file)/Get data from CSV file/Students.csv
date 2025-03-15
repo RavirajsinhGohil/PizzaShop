@@ -1,0 +1,15 @@
+RollNumber,Name,MobileNumber,City,Address,Email,Pincode
+1,John Doe,+919876543210,New York,1234 Elm mailto:st,ramu@example.com,10001
+2,king Smith,+919123456789,Boston,5678 Oak mailto:st,king@example.com,20002
+3,Boby deol,9876543210,Chicago,9101 Pine St,,30003
+4,travis scott,+919112233445,San Francisco,1122 Maple mailto:st,travis@example.com,40004
+5,Charlie chaflin,+919876543211,Los Angeles,3344 Birch mailto:st,charlie@example.com,700088
+6,Invalid Record,+911234567890,Miami,4455 Cedar St,,80008
+7,PizzaShop User,+912334354435,NYC,0880 mailto:gujarat,pizzashop@example.com,444444
+8,gfdfg,4565787456,Bhavnagar,0880 mailto:usa,dsghj@example.com,789456
+
+1, Ravirajsinh, +919876543210, Bhavnagar, abcd, raviraj@example.com, 123456
+2, Ravirajsinh, +919876543210, Bhavnagar, abcd, raviraj@example.com, 123456
+3, Ravirajsinh, +919876543210, Bhavnagar, abcd, raviraj@example.com, 123456
+4, Ravirajsinh, +919876543210, Bhavnagar, abcd, raviraj@example.com, 123456
+5, Ravirajsinh, +919876543210, Bhavnagar, abcd, raviraj@example.com, 123456

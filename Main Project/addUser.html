@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add User</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="offcanvas offcanvas-start d-lg-block show" tabindex="-1" id="sidebar" data-bs-scroll="true"
+            data-bs-backdrop="false" aria-controls="offcanvasScrolling">
+
+            <div class="offcanvas-body">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="img-fluid pizza_shop_logo" src="images/logos/pizzashop_logo.png"
+                        alt="Pizza shop logo not found">
+                    <div class="title fs-5 fw-bold">PIZZASHOP</div>
+                    <button type="button" class="btn-close d-md-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="d-flex flex-column mt-3 ps-3">
+                    <a href="" class="dashboard_btn sidebar_btn d-flex align-items-center">
+                        <img class="" src="" alt="">
+                        <div>Dashboard</div>
+                    </a>
+                    <a href="userList.html" class="users_btn sidebar_btn">
+                        <img src="" alt="">
+                        <div>Users</div>
+                    </a>
+                    <a href="role.html" class="role_permission_btn sidebar_btn">
+                        <img src="" alt="">
+                        <div>Role and Permission</div>
+                    </a>
+                    <a href="menu.html" class="menu_btn sidebar_btn">
+                        <img src="" alt="">
+                        <div>Menu</div>
+                    </a>
+                    <a href="" class="table_section_btn sidebar_btn">
+                        <img src="" alt="">
+                        <div>Table and Section</div>
+                    </a>
+                    <a href="" class="taxes_fees_btn sidebar_btn">
+                        <img src="" alt="">
+                        <div>Taxes And Fees</div>
+                    </a>
+                    <a href="" class="orders_btn sidebar_btn">
+                        <img src="" alt="">
+                        <div>Orders</div>
+                    </a>
+                    <a href="" class="customers_btn sidebar_btn">
+                        <img src="" alt="">
+                        <div>Customers</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="user_body">
+        <div class="status d-flex align-items-center justify-content-between h-10">
+            <a class="btn btn-primary bg-white d-lg-block" data-bs-toggle="offcanvas" href="#sidebar" role="button" aria-controls="sidebar">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="img-fluid pizza_shop_logo" src="images/logos/pizzashop_logo.png"
+                        alt="Pizza shop logo not found">
+                    <div class="title fs-5 fw-bold">PIZZASHOP</div>
+                </div>
+            </a>
+            <img width="50" height="50" class="me-4" src="images/profile_div_bg.jpg" alt="">
+        </div>
+
+        <div class="add_user_heading d-flex justify-content-between">
+            <div class="fw-bold fs-2">Add User</div>
+            <div class="d-flex">
+                <img src="" alt="">
+                <a href="userList.html" class="btn btn-primary ms-3">&lt; Back</a>
+            </div>
+        </div>
+
+        <div class="add_user_form">
+            <div class="row mx-0">
+                <div class="col-lg-6 col-md-6 mt-3">
+                    <div class="form-floating">
+                        <input type="text" class="form-control add_user_input" id="floatingInput"
+                            placeholder="name@example.com">
+                        <label for="floatingInput">First Name</label>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-3">
+                    <div class="form-floating">
+                        <input type="text" class="form-control add_user_input" id="exampleInput"
+                            aria-describedby="emailHelp" placeholder="Last Name">
+                        <label for="floatingInput">Last Name</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mx-0">
+                <div class="col-lg-6 col-md-6 mt-3">
+                    <div class="form-floating">
+                        <input type="text" class="form-control add_user_input" id="floatingInput"
+                            placeholder="name@example.com">
+                        <label for="floatingInput">User Name</label>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-3">
+
+                    <div class="form-floating">
+                        <select class="form-select add_user_input" aria-label="Default select example">
+                            <option selected>Select Role</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <label class="fs-6" for="floatingInput">Role</label>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row mx-0">
+                <div class="col-lg-6 col-md-6 mt-3">
+                    <div class="form-floating">
+                        <input type="text" class="form-control add_user_input" id="exampleInput"
+                            aria-describedby="emailHelp" placeholder="Email">
+                        <label for="floatingInput">Email</label>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-3">
+                    <div class="form-floating">
+                        <input type="password" class="form-control add_user_input" id="floatingInput"
+                            placeholder="abc@123">
+                        <label for="floatingInput">Password</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row upload_div mx-0 mt-3">
+                <div class="col d-flex align-items-center browse_div justify-content-center w-100 border">
+                    <div class="w-100">
+                        <input id="inputFile" class="d-none" type="file">
+                        <button class="w-100 h-100 d-flex justify-content-center al upload_btn bg-white"
+                            onclick="openinputFile()">Browse file</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mx-0">
+                <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
+                    <div class="form-floating">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected><span class="fs-6">Select Country</span></option>
+                        <option value="1">India</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        </select>
+                        <label class="fs-6" for="floatingInput">Country</label>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
+
+                    <div class="form-floating">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select State</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <label class="fs-6" for="floatingInput">State</label>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
+
+                    <div class="form-floating">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select City</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <label class="fs-6" for="floatingInput">City</label>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="row mx-0">
+                <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
+                    <div class="form-floating">
+                        <input type="text" class="form-control add_user_input" id="floatingInput"
+                            placeholder="name@example.com">
+                        <label for="floatingInput">Zipcode</label>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
+                    <div class="form-floating">
+                        <input type="text" class="form-control add_user_input" id="floatingInput"
+                            placeholder="name@example.com">
+                        <label for="floatingInput">Address</label>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
+                    <div class="form-floating">
+                        <input type="text" class="form-control add_user_input" id="floatingInput"
+                            placeholder="name@example.com">
+                        <label for="floatingInput">Phone</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="create_cancel_btn my-3">
+                <a href="" class="btn btn-primary">Update User</a>
+                <a href="" class="btn border-primary">Cancel</a>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

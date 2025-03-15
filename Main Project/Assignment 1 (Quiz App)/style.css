@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 100vh;
+}
+
+.hide {
+    display: none !important;
+}
+
+.success {
+    color: white;
+    background-color: green;
+}
+
+.failure{
+    color: white;
+    background-color: red;
+}
